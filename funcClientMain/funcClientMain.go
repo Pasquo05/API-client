@@ -1,7 +1,7 @@
 package funcClientMain
 
 import (
-	prjclient "Matteo/http/prjAPIclient/prjClient"
+	prjclient "Matteo/prj-api-client/prjClient"
 	"fmt"
 	"net/http"
 )
@@ -23,7 +23,7 @@ func (c client) DeleteBook() {
 
 	Id := ""
 	fmt.Scanln(&Id)
-	prjclient.GetRequest(fmt.Sprintf("%s/book/delete/%s", c.url, Id))
+	prjclient.GetRequest(c.url)
 }
 
 func NewBook() prjclient.Book {
