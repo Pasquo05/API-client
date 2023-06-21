@@ -1,4 +1,4 @@
-package funcCLient
+package prjclient
 
 import (
 	"bytes"
