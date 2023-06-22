@@ -1,7 +1,7 @@
 package funcClientMain
 
 import (
-	prjclient "Matteo/prj-api-client/prjClient"
+	prjclient "Pasquo05/API-client/prjClient"
 	"fmt"
 	"net/http"
 )
